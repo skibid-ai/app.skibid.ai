@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin '@tailwindcss/typography';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --headerHeight: 90px;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+  scrollbar-width: thin;
+}
