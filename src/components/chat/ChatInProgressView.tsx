@@ -4,7 +4,7 @@ const AgentBadge = () => {
   return (
     <div className="border rounded-full bg-black text-gray-200 border-gray-700 flex items-center gap-2 pr-3 mr-auto">
       <div className="relative h-6 w-6 rounded-full overflow-hidden">
-        <Image src="/cheems.jpg" alt="avatar" fill />
+        <Image src="/fat-nigga.png" alt="avatar" fill />
       </div>
       <p className="text-sm font-semibold">King</p>
     </div>

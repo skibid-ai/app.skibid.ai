@@ -19,7 +19,7 @@ export const Navigation = () => {
         <Link
           href="/predictions"
           className={`text-ds_gray-200 hover:bg-[#2A2530] py-[6px] px-[12px] rounded-[10px] ${
-            pathname === '/predictions' ? ' text-green-200' : ''
+            pathname === '/predictions' ? ' text-amber-200' : ''
           }`}
         >
           Predictions

@@ -5,7 +5,7 @@ interface ButtonShowReasoningProps {
 export function ButtonShowReasoning({ onClick }: ButtonShowReasoningProps) {
   return (
     <button
-      className="inline-flex gap-1 items-center bg-white text-black rounded-lg px-1 py-1 text-sm hover:bg-green-200 hover:cursor-pointer"
+      className="inline-flex gap-1 items-center bg-white text-black rounded-lg px-1 py-1 text-sm hover:bg-amber-200 hover:cursor-pointer"
       onClick={onClick}
     >
       <svg

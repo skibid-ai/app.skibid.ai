@@ -281,7 +281,7 @@ export default function Chat({ chatId }: { chatId?: string }) {
 
               <button
                 type="submit"
-                className="p-2 rounded-md bg-white text-black hover:bg-green-200
+                className="p-2 rounded-md bg-white text-black hover:bg-amber-200
       transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 disabled={isTyping || isAgentLoading || !input.trim()}
               >

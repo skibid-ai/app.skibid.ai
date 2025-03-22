@@ -4,14 +4,14 @@ interface AgentBadgeProps {
   name?: string;
 }
 
-export const AgentBadge = ({ name = 'King' }: AgentBadgeProps) => {
+export const AgentBadge = ({ name = 'Fat Nigga' }: AgentBadgeProps) => {
   return (
     <div className="rounded-full text-gray-200 flex items-center gap-2 pr-3">
-      <div className="relative h-6 w-6 rounded-full overflow-hidden">
-        <Image src="/cheems.jpg" alt="avatar" width={24} height={24} />
+      <div className="relative h-12 w-12 rounded-full overflow-hidden">
+        <Image src="/fat-nigga-head.png" alt="avatar" fill />
       </div>
 
-      <p className="text-sm font-semibold">{name}</p>
+      <p className="text-base font-semibold">{name}</p>
     </div>
   );
 };

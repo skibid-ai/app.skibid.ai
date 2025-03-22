@@ -4,7 +4,7 @@ export function NewChatButton() {
   return (
     <Link
       href="/"
-      className="bg-white text-sm rounded-[12px] text-black flex items-center justify-center gap-1 hover:bg-green-200 px-4 py-2"
+      className="bg-white text-sm rounded-[12px] text-black flex items-center justify-center gap-1 hover:bg-amber-200 px-4 py-2"
     >
       <svg
         width="21"

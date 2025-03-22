@@ -35,7 +35,7 @@ export const ChatInProgressView = ({
           {/* Agent Loading */}
           {isAgentLoading && (
             <div className="max-w-full w-full py-3 px-4 rounded-lg text-white flex gap-0.5 justify-start items-center">
-              <AgentBadge name="Analyzing" />
+              <AgentBadge name="Fat Nigga Analyzing..." />
 
               <div className="flex space-x-1 mt-5 mb-3 items-center">
                 <div className="w-1 h-1 bg-white/80 rounded-full animate-minibounce"></div>
