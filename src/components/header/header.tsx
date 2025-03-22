@@ -15,7 +15,7 @@ export function Header() {
 
         <ConnectButton />
       </div>
-      <div className="h-[1px] w-full bg-gradient-to-r from-[#d4aafb00] via-[#D4AAFB] to-[#d4aafb00]" />
+      <div className="h-[1px] w-full bg-gradient-to-r from-[#d4aafb00] via-amber-500 to-[#d4aafb00]" />
     </div>
   );
 }
